@@ -1,0 +1,14 @@
+@media only screen and (max-width: 992px) {
+    .navbar__menu  {
+        display: none;
+    }
+
+    #blog .bg_item .bg_item_txt {
+        padding: 8px;
+    }
+
+    /* gallery start */
+
+
+    /* gallery end */
+}

@@ -1,0 +1,161 @@
+   <div class="products_row row">
+                    <div class="product_item ">
+                        <div class="pr__single">
+                            <figure>
+                                <img src="images/img-12.jpg" alt="photo">
+                                <div class="image_overlay">
+                                    <!-- <div class="links">
+                                        <a href="#">
+                                            <i class="fas fa-link"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div> -->
+                                    <div class="image_overlay_details">
+                                        <h3>dark beauty</h3>
+                                        <p>category</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="pr__single">
+                            <figure>
+                                <img src="images/photo-1647100106565-e7dfd88d96ae.avif" alt="photo">
+                                <div class="image_overlay">
+                                    <!-- <div class="links">
+                                <a href="#">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div> -->
+                                    <div class="image_overlay_details">
+                                        <h3>dark beauty</h3>
+                                        <p>category</p>
+                                    </div>
+                                </div>
+                            </figure>
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="pr__single">
+                            <figure>
+                                <img src="images/img-8.jpg" alt="photo">
+                                <div class="image_overlay">
+                                    <!-- <div class="links">
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </div> -->
+                                    <div class="image_overlay_details">
+                                        <h3>dark beauty</h3>
+                                        <p>category</p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <figure>
+                            <img src="images/img-1.jpg" alt="photo">
+                            <div class="image_overlay">
+                                <!-- <div class="links">
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </div> -->
+                                <div class="image_overlay_details">
+                                    <h3>dark beauty</h3>
+                                    <p>category</p>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="product_item">
+                        <figure>
+                            <img src="images/img-7.jpg" alt="photo">
+                            <div class="image_overlay">
+                                <!-- <div class="links">
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </div> -->
+                                <div class="image_overlay_details">
+                                    <h3>dark beauty</h3>
+                                    <p>category</p>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="product_item">
+                        <figure>
+                            <img src="images/img-12.jpg" alt="photo">
+                            <div class="image_overlay">
+                                <!-- <div class="links">
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </div> -->
+                                <div class="image_overlay_details">
+                                    <h3>dark beauty</h3>
+                                    <p>category</p>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="product_item">
+                        <figure>
+                            <img src="images/img-4.jpg" alt="photo">
+                            <div class="image_overlay">
+                                <!-- <div class="links">
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </div> -->
+                                <div class="image_overlay_details">
+                                    <h3>dark beauty</h3>
+                                    <p>category</p>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="product_item">
+                        <figure>
+                            <img src="images/img-13.jpg" alt="photo">
+                            <div class="image_overlay">
+                                <!-- <div class="links">
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </div> -->
+                                <div class="image_overlay_details">
+                                    <h3>dark beauty</h3>
+                                    <p>category</p>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                </div>

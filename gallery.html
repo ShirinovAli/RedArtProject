@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1ffa921682.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+    <header id="header">
+        <!-- <div class="header_overlay"></div> -->
+        <div class="top_header header__wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-md-2">
+                        <a href="index.html">
+                            <figure>
+                                <img src="images/logo.png" alt="logo">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="navbar_item col-md-10">
+                        <div class="navbar__menu">
+                            <nav>
+                                <ul class="menu_nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="main__box">
+            <div class="main__pg__title">
+                <div class="container">
+                    <div class="row">
+                        <div class="pg__title col-6">
+                            <h2>gallery</h2>
+                        </div>
+                        <div class="pg__breadcrumb col-6">
+                            <nav>
+                                <ul class="d-flex justify-content-end align-items-center">
+                                    <li><a href="#">Home</a></li>
+                                    <li><i class="fas fa-caret-right"></i></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="art__gallery">
+            <div class="gallery__box">
+                <div class="gallery__container container-fluid">
+                    <div class="gallery__row row">
+                        <aside class="col-lg-3 col-12 gallery__aside" id="column__left">
+                            <div class="aside__column">
+                                <div class="category__list">
+                                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item accordion__item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                    aria-controls="panelsStayOpen-collapseOne">
+                                                    Categories
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOne"
+                                                class="accordion-collapse collapse show"
+                                                aria-labelledby="panelsStayOpen-headingOne">
+                                                <div class="accordion-body">
+                                                    <div class="category__box">
+                                                        <!-- <h3>Categories</h3> -->
+                                                        <div class="category__box">
+                                                            <div class="list-group list-group-filter">
+                                                                <div class="list-group-items">
+                                                                    <div class="list-group-item">
+                                                                        <div class="category__filter__group">
+                                                                            <div class="category__checkbox">
+                                                                                <label class="form-check-label"
+                                                                                    for="check__oil">
+                                                                                    <input type="checkbox"
+                                                                                        class="form-check-input"
+                                                                                        id="check__oil">
+                                                                                    Oil painting
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="category__checkbox">
+                                                                                <label class="form-check-label"
+                                                                                    for="check__acrylic">
+                                                                                    <input type="checkbox"
+                                                                                        class="form-check-input"
+                                                                                        id="check__acrylic">
+                                                                                    acrylic painting
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="category__checkbox">
+                                                                                <label class="form-check-label"
+                                                                                    for="check__pastel">
+                                                                                    <input type="checkbox"
+                                                                                        class="form-check-input"
+                                                                                        id="check__pastel">
+                                                                                    pastel painting
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="category__checkbox">
+                                                                                <label class="form-check-label"
+                                                                                    for="check__chacoal">
+                                                                                    <input type="checkbox"
+                                                                                        class="form-check-input"
+                                                                                        id="check__chacoal">
+                                                                                    chacoal drawing
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="category__checkbox">
+                                                                                <label class="form-check-label"
+                                                                                    for="watercolor">
+                                                                                    <input type="checkbox"
+                                                                                        class="form-check-input"
+                                                                                        id="check__watercolor">
+                                                                                    watercolor painting
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item accordion__item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                                    aria-controls="panelsStayOpen-collapseTwo">
+                                                    Size
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="panelsStayOpen-headingTwo">
+                                                <div class="accordion-body">
+                                                    <div class="default__box">
+                                                        <div id="filter">
+                                                            <!-- <h3>Search</h3> -->
+                                                            <div class="filter__box">
+                                                                <div class="list-group list-group-filter">
+                                                                    <div class="list-group-items">
+                                                                        <div class="list-group-item">
+                                                                            <div class="filter__group">
+                                                                                <div class="checkbox">
+                                                                                    <label class="form-check-label"
+                                                                                        for="check__size">
+                                                                                        <input type="checkbox"
+                                                                                            class="form-check-input"
+                                                                                            id="check__size">
+                                                                                        30x40
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <div class="gallery__main__wrap col-lg-9 col-12">
+                            <div id="portfolio" class="pr__gallery__pg">
+                                <div class="products_wrapper">
+                                    <div class="products_row row">
+                                        <div class="product_item col-lg-4 col-md-4 col-12">
+                                            <figure>
+                                                <img src="images/img-12.jpg" alt="photo">
+                                                <div class="image_overlay">
+                                                    <!-- <div class="links">
+                                                            <a href="#">
+                                                                <i class="fas fa-link"></i>
+                                                            </a>
+                                                            <a href="#">
+                                                                <i class="fas fa-search"></i>
+                                                            </a>
+                                                        </div> -->
+                                                    <div class="image_overlay_details">
+                                                        <h3>dark beauty</h3>
+                                                        <p>category</p>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="product_item col-lg-4 col-md-4 col-12">
+                                            <figure>
+                                                <img src="images/photo-1647100106565-e7dfd88d96ae.avif" alt="photo">
+                                                <div class="image_overlay">
+                                                    <!-- <div class="links">
+                                                    <a href="#">
+                                                        <i class="fas fa-link"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fas fa-search"></i>
+                                                    </a>
+                                                </div> -->
+                                                    <div class="image_overlay_details">
+                                                        <h3>dark beauty</h3>
+                                                        <p>category</p>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="product_item col-lg-4 col-md-4 col-12">
+                                            <figure>
+                                                <img src="images/img-8.jpg" alt="photo">
+                                                <div class="image_overlay">
+                                                    <!-- <div class="links">
+                                                        <a href="#">
+                                                            <i class="fas fa-link"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div> -->
+                                                    <div class="image_overlay_details">
+                                                        <h3>dark beauty</h3>
+                                                        <p>category</p>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="product_item col-lg-4 col-md-4 col-12">
+                                            <figure>
+                                                <img src="images/img-1.jpg" alt="photo">
+                                                <div class="image_overlay">
+                                                    <!-- <div class="links">
+                                                        <a href="#">
+                                                            <i class="fas fa-link"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div> -->
+                                                    <div class="image_overlay_details">
+                                                        <h3>dark beauty</h3>
+                                                        <p>category</p>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="product_item col-lg-4 col-md-4 col-12">
+                                            <figure>
+                                                <img src="images/img-7.jpg" alt="photo">
+                                                <div class="image_overlay">
+                                                    <!-- <div class="links">
+                                                        <a href="#">
+                                                            <i class="fas fa-link"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div> -->
+                                                    <div class="image_overlay_details">
+                                                        <h3>dark beauty</h3>
+                                                        <p>category</p>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="product_item col-lg-4 col-md-4 col-12">
+                                            <figure>
+                                                <img src="images/img-12.jpg" alt="photo">
+                                                <div class="image_overlay">
+                                                    <!-- <div class="links">
+                                                        <a href="#">
+                                                            <i class="fas fa-link"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div> -->
+                                                    <div class="image_overlay_details">
+                                                        <h3>dark beauty</h3>
+                                                        <p>category</p>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="product_item col-lg-4 col-md-4 col-12">
+                                            <figure>
+                                                <img src="images/img-4.jpg" alt="photo">
+                                                <div class="image_overlay">
+                                                    <!-- <div class="links">
+                                                        <a href="#">
+                                                            <i class="fas fa-link"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div> -->
+                                                    <div class="image_overlay_details">
+                                                        <h3>dark beauty</h3>
+                                                        <p>category</p>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                        <div class="product_item col-lg-4 col-md-4 col-12">
+                                            <figure>
+                                                <img src="images/img-13.jpg" alt="photo">
+                                                <div class="image_overlay">
+                                                    <!-- <div class="links">
+                                                        <a href="#">
+                                                            <i class="fas fa-link"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fas fa-search"></i>
+                                                        </a>
+                                                    </div> -->
+                                                    <div class="image_overlay_details">
+                                                        <h3>dark beauty</h3>
+                                                        <p>category</p>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <div class="news_wr">
+                <div class="container">
+                    <div class="newsletter_block row">
+                        <div class="news_text col-md-7 col-12">
+                            <div class="news_info">
+                                <i class="far fa-envelope"></i>
+                                <div class="news_dec">
+                                    <h3>Newsletter</h3>
+                                    <span>Stay up to date with new collection and exclusive offers.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news_form col-md-5 col-12">
+                            <form action="" id="frm_news">
+                                <div class="subscribe_form">
+                                    <input type="email" class="form-control" id="news_user_email"
+                                        placeholder="enter email here...">
+                                    <button type="submit" class="subscribe_btn">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer_wrapper">
+            <div class="footer_info_container container">
+                <div class="row">
+                    <div class="footer_about col-md-4 col-12">
+                        <h3>about</h3>
+                        <p>
+                            Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper
+                            suscipit magna, nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere
+                            placerat eget purus mauris.
+                            Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, nec imperdiet
+                            lacus semper.
+                        </p>
+                    </div>
+                    <div class="footer_contact col-md-4 col-12">
+                        <h3>Contact</h3>
+                        <div class="ft_cn_inf">
+                            <nav>
+                                <ul>
+                                    <li>Address : Azerbaijan, Baku city</li>
+                                    <li>Phone : +994111232323</li>
+                                    <li>Email : email@email.com</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="footer_category col-md-4 col-12">
+                        <h3>Tag cloud</h3>
+                        <div class="cat_cloud">
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                            <a href="#">
+                                nature
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer_copy col-12">
+                        <p>&copy; 2022 ElArt Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="p__palette">
+        <a href="#body" id="back__to__top" title="top">
+            <!-- <i class="fas fa-palette"></i> -->
+            <!-- <i class="fas fa-paint-brush"></i> -->
+            <i class="fas fa-brush"></i>
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <div class="category__box">
+    <h3>Categories</h3>
+    <div class="category__box">
+        <div class="list-group list-group-filter">
+            <div class="list-group-items">
+                <div class="list-group-item">
+                    <div class="category__filter__group">
+                        <div class="category__checkbox">
+                            <label class="form-check-label" for="check__oil">
+                                <input type="checkbox" class="form-check-input" id="check__oil">
+                                Oil painting
+                            </label>
+                        </div>
+                        <div class="category__checkbox">
+                            <label class="form-check-label" for="check__acrylic">
+                                <input type="checkbox" class="form-check-input" id="check__acrylic">
+                                acrylic painting
+                            </label>
+                        </div>
+                        <div class="category__checkbox">
+                            <label class="form-check-label" for="check__pastel">
+                                <input type="checkbox" class="form-check-input" id="check__pastel">
+                                pastel painting
+                            </label>
+                        </div>
+                        <div class="category__checkbox">
+                            <label class="form-check-label" for="check__chacoal">
+                                <input type="checkbox" class="form-check-input" id="check__chacoal">
+                                chacoal drawing
+                            </label>
+                        </div>
+                        <div class="category__checkbox">
+                            <label class="form-check-label" for="watercolor">
+                                <input type="checkbox" class="form-check-input" id="check__watercolor">
+                                watercolor painting
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> -->
